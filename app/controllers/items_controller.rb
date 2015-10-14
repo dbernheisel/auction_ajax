@@ -9,6 +9,10 @@ class ItemsController < ApplicationController
   # GET /items/1
   def show
     @bid = Bid.new(item: @item, amount: @item.next_bid_amount)
+    respond_to do |format|
+      format.js { render @item }
+      format.html
+    end
   end
 
   # GET /items/new
