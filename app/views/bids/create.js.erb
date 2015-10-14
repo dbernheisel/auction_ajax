@@ -1,0 +1,6 @@
+$('#highest-bid-show').prop("value", "<%= @bid.item.highest_bid_amount %>");
+<%- for error in @bid.errors.messages do %>
+  $("#notice").html("<%= error.join(' ') %>\n");
+<%- end %>
+
+// $('#test').html("<%= @bid.item.highest_bid_amount %>");

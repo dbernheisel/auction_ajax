@@ -1,0 +1,5 @@
+var me = $('#highest-bid-show')
+if(me.prop("value") != <%= @item.highest_bid_amount %>){
+  me.prop("value", "<%= @item.highest_bid_amount %>");
+  $("#notice").html("Someone made a bid!");
+}
