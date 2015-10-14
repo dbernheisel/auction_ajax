@@ -18486,3 +18486,2242 @@ Processing by ItemsController#show as JS
   [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
   Rendered items/_item.js.erb (2.1ms)
 Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806016" for 127.0.0.1 at 2015-10-14 17:45:40 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806016", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806017" for 127.0.0.1 at 2015-10-14 17:45:42 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806017", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806018" for 127.0.0.1 at 2015-10-14 17:45:44 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806018", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806019" for 127.0.0.1 at 2015-10-14 17:45:46 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806019", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806020" for 127.0.0.1 at 2015-10-14 17:45:48 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806020", "id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806021" for 127.0.0.1 at 2015-10-14 17:45:50 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806021", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.5ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444858806022" for 127.0.0.1 at 2015-10-14 17:45:52 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806022", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806023" for 127.0.0.1 at 2015-10-14 17:45:54 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806023", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806024" for 127.0.0.1 at 2015-10-14 17:45:56 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806024", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806025" for 127.0.0.1 at 2015-10-14 17:45:58 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806025", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806026" for 127.0.0.1 at 2015-10-14 17:46:00 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806026", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806027" for 127.0.0.1 at 2015-10-14 17:46:02 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806027", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806028" for 127.0.0.1 at 2015-10-14 17:46:04 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806028", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806029" for 127.0.0.1 at 2015-10-14 17:46:06 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806029", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806030" for 127.0.0.1 at 2015-10-14 17:46:08 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806030", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.2ms)
+Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444858806031" for 127.0.0.1 at 2015-10-14 17:46:10 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806031", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806032" for 127.0.0.1 at 2015-10-14 17:46:12 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806032", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806033" for 127.0.0.1 at 2015-10-14 17:46:14 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806033", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444858806034" for 127.0.0.1 at 2015-10-14 17:46:16 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806034", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806035" for 127.0.0.1 at 2015-10-14 17:46:18 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806035", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806036" for 127.0.0.1 at 2015-10-14 17:46:20 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806036", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806037" for 127.0.0.1 at 2015-10-14 17:46:22 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806037", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806038" for 127.0.0.1 at 2015-10-14 17:46:24 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806038", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806039" for 127.0.0.1 at 2015-10-14 17:46:26 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806039", "id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444858806040" for 127.0.0.1 at 2015-10-14 17:46:28 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806040", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.0ms)
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806041" for 127.0.0.1 at 2015-10-14 17:46:30 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806041", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806042" for 127.0.0.1 at 2015-10-14 17:46:32 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806042", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.5ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806043" for 127.0.0.1 at 2015-10-14 17:46:34 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806043", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806044" for 127.0.0.1 at 2015-10-14 17:46:36 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806044", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806045" for 127.0.0.1 at 2015-10-14 17:46:38 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806045", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806046" for 127.0.0.1 at 2015-10-14 17:46:40 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806046", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444858806047" for 127.0.0.1 at 2015-10-14 17:46:42 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806047", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (3.4ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806048" for 127.0.0.1 at 2015-10-14 17:46:44 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806048", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444858806049" for 127.0.0.1 at 2015-10-14 17:46:46 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806049", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444858806050" for 127.0.0.1 at 2015-10-14 17:46:48 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806050", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444858806051" for 127.0.0.1 at 2015-10-14 17:46:50 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806051", "id"=>"1"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444858806052" for 127.0.0.1 at 2015-10-14 17:46:52 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806052", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.2ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444858806053" for 127.0.0.1 at 2015-10-14 17:46:54 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806053", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (4.1ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 169ms (Views: 166.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444858806054" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444858806054", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.8ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/application-c7484b358d97e9e8130e4c7b4ea01470.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:46:55 -0400
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 151ms (Views: 147.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/application-f0e509f1c1c0f22ea48c11b0e18e4738.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:50 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:47:51 -0400
+
+
+Started POST "/bids" for 127.0.0.1 at 2015-10-14 17:48:31 -0400
+Processing by BidsController#create as JS
+  Parameters: {"utf8"=>"✓", "bid"=>{"item_id"=>"1", "amount"=>"10070.0"}, "commit"=>"Submit Bid!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "bids" ("amount", "item_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["amount", 10070.0], ["item_id", 1], ["created_at", "2015-10-14 21:48:31.727070"], ["updated_at", "2015-10-14 21:48:31.727070"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered bids/create.js.erb (2.5ms)
+Completed 200 OK in 51ms (Views: 45.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:48:48 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 153ms (Views: 149.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started GET "/assets/application-f0e509f1c1c0f22ea48c11b0e18e4738.js?body=1" for 127.0.0.1 at 2015-10-14 17:48:49 -0400
+
+
+Started POST "/bids" for 127.0.0.1 at 2015-10-14 17:50:21 -0400
+Processing by BidsController#create as JS
+  Parameters: {"utf8"=>"✓", "bid"=>{"item_id"=>"1", "amount"=>"10080.0"}, "commit"=>"Submit Bid!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "bids" ("amount", "item_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["amount", 10080.0], ["item_id", 1], ["created_at", "2015-10-14 21:50:21.953315"], ["updated_at", "2015-10-14 21:50:21.953315"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered bids/create.js.erb (1.9ms)
+Completed 200 OK in 53ms (Views: 46.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:50:32 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 152ms (Views: 148.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/assets/application-f0e509f1c1c0f22ea48c11b0e18e4738.js?body=1" for 127.0.0.1 at 2015-10-14 17:50:33 -0400
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:51:09 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 180ms (Views: 175.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/application-3182517975572a8095e0ecb67f1f70e2.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:10 -0400
+
+
+Started POST "/bids" for 127.0.0.1 at 2015-10-14 17:51:23 -0400
+Processing by BidsController#create as JS
+  Parameters: {"utf8"=>"✓", "bid"=>{"item_id"=>"1", "amount"=>"10090.0"}, "commit"=>"Submit Bid!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "bids" ("amount", "item_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["amount", 10090.0], ["item_id", 1], ["created_at", "2015-10-14 21:51:23.582038"], ["updated_at", "2015-10-14 21:51:23.582038"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered bids/create.js.erb (1.5ms)
+Completed 200 OK in 46ms (Views: 39.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:51:51 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 176ms (Views: 171.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/assets/application-f0e509f1c1c0f22ea48c11b0e18e4738.js?body=1" for 127.0.0.1 at 2015-10-14 17:51:52 -0400
+
+
+Started GET "/items/1?_=1444859512416" for 127.0.0.1 at 2015-10-14 17:51:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512416", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.1ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512417" for 127.0.0.1 at 2015-10-14 17:51:57 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512417", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.5ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512418" for 127.0.0.1 at 2015-10-14 17:51:59 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512418", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512419" for 127.0.0.1 at 2015-10-14 17:52:01 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512419", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512420" for 127.0.0.1 at 2015-10-14 17:52:03 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512420", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859512421" for 127.0.0.1 at 2015-10-14 17:52:05 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512421", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.0ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512422" for 127.0.0.1 at 2015-10-14 17:52:07 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512422", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512423" for 127.0.0.1 at 2015-10-14 17:52:09 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512423", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.4ms)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512424" for 127.0.0.1 at 2015-10-14 17:52:11 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512424", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512425" for 127.0.0.1 at 2015-10-14 17:52:13 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512425", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512426" for 127.0.0.1 at 2015-10-14 17:52:15 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512426", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512427" for 127.0.0.1 at 2015-10-14 17:52:17 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512427", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.4ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512428" for 127.0.0.1 at 2015-10-14 17:52:19 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512428", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859512429" for 127.0.0.1 at 2015-10-14 17:52:21 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512429", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859512430" for 127.0.0.1 at 2015-10-14 17:52:23 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512430", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512431" for 127.0.0.1 at 2015-10-14 17:52:25 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512431", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (3.2ms)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512432" for 127.0.0.1 at 2015-10-14 17:52:27 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512432", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.5ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512433" for 127.0.0.1 at 2015-10-14 17:52:29 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512433", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859512434" for 127.0.0.1 at 2015-10-14 17:52:31 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859512434", "id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.3ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.0ms)
+Completed 200 OK in 12ms (Views: 6.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:52:31 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 162ms (Views: 157.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/application-c4e103e7a30bf46947ab096a44249167.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:52:32 -0400
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:53:15 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 189ms (Views: 185.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/assets/application-f0e509f1c1c0f22ea48c11b0e18e4738.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:16 -0400
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 130ms (Views: 126.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/assets/application-f0e509f1c1c0f22ea48c11b0e18e4738.js?body=1" for 127.0.0.1 at 2015-10-14 17:53:31 -0400
+
+
+Started GET "/items/1?_=1444859611967" for 127.0.0.1 at 2015-10-14 17:53:35 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611967", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (3.0ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611968" for 127.0.0.1 at 2015-10-14 17:53:37 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611968", "id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.9ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/items/1?_=1444859611969" for 127.0.0.1 at 2015-10-14 17:53:39 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611969", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/items/1?_=1444859611970" for 127.0.0.1 at 2015-10-14 17:53:41 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611970", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.1ms)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611971" for 127.0.0.1 at 2015-10-14 17:53:43 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611971", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.3ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859611972" for 127.0.0.1 at 2015-10-14 17:53:45 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611972", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611973" for 127.0.0.1 at 2015-10-14 17:53:47 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611973", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859611974" for 127.0.0.1 at 2015-10-14 17:53:49 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611974", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859611975" for 127.0.0.1 at 2015-10-14 17:53:51 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611975", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611976" for 127.0.0.1 at 2015-10-14 17:53:53 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611976", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611977" for 127.0.0.1 at 2015-10-14 17:53:55 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611977", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.5ms)
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611978" for 127.0.0.1 at 2015-10-14 17:53:57 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611978", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.0ms)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611979" for 127.0.0.1 at 2015-10-14 17:53:59 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611979", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.1ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611980" for 127.0.0.1 at 2015-10-14 17:54:01 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611980", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859611981" for 127.0.0.1 at 2015-10-14 17:54:03 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611981", "id"=>"1"}
+  [1m[35mItem Load (0.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (4.1ms)
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-10-14 17:54:04 -0400
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 179ms (Views: 175.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/items/1?_=1444859611982" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859611982", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.2ms)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/foundation_and_overrides-f34a9757c336daa0601e5ed462bfda3e.css?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/scaffolds-986122a69964ab1b948f08e0616a0e87.css?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/vendor/modernizr-ab036539ab2eac66b636accb8d06d77b.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/application-742bb5f8c41876e612edfa6b33cfa1a3.css?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/items-5a6161075c147558caf7469c9e95c220.css?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation-013a9ecfcbd0d277665f83c66e076e18.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.abide-cecd3b8dfdb9535c145e3160cca57cae.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.accordion-07d483c126d868809345e4abbcfd54a5.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.alert-e54c2d9000574a39e07b2e6ede6ae0f6.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.clearing-b0828edefaad3278cd85c2faf6fd20ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.dropdown-c6b22cf8e5474c59dc0bc19e2d290da5.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.interchange-adf4ca4cb9a1f36677701d7d06489ead.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.joyride-7f23c30298ef55f2db505f357bd4a799.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.magellan-8cd3c13f48f6d78fb172bb5200551918.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.offcanvas-0c2112e52f2de840e27058c4912dd869.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.orbit-925ec65dcf6be03dd5c7a1d472845b27.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.reveal-7bd8d9ca180151af16ff7678033f8212.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.slider-66a6fcccc01097ba84b9e9fb84a429ef.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.tab-0d9dd6504af28bc75bdb999fbb120872.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.tooltip-5214a0ecffb0be84dc9247c31455ef50.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.topbar-ba04adaaf787a047a2bc9195842bb938.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation/foundation.equalizer-b93ba11c4146c58dd7d95ba14769e640.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/application-d72da7a9df37a7af86aa54a66aa33e4d.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/foundation-cf9c2be01a146b330f05b712f6779903.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/assets/items-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-10-14 17:54:05 -0400
+
+
+Started GET "/items/1?_=1444859645351" for 127.0.0.1 at 2015-10-14 17:54:09 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645351", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.1ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645352" for 127.0.0.1 at 2015-10-14 17:54:11 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645352", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645353" for 127.0.0.1 at 2015-10-14 17:54:13 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645353", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645354" for 127.0.0.1 at 2015-10-14 17:54:15 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645354", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645355" for 127.0.0.1 at 2015-10-14 17:54:17 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645355", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.0ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645356" for 127.0.0.1 at 2015-10-14 17:54:19 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645356", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645357" for 127.0.0.1 at 2015-10-14 17:54:21 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645357", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.0ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645358" for 127.0.0.1 at 2015-10-14 17:54:23 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645358", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.5ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645359" for 127.0.0.1 at 2015-10-14 17:54:25 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645359", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (2.1ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645360" for 127.0.0.1 at 2015-10-14 17:54:27 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645360", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.6ms)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645361" for 127.0.0.1 at 2015-10-14 17:54:29 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645361", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.1ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645362" for 127.0.0.1 at 2015-10-14 17:54:31 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645362", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.2ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645363" for 127.0.0.1 at 2015-10-14 17:54:33 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645363", "id"=>"1"}
+  [1m[36mItem Load (0.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBid Exists (0.1ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mBid Load (0.2ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1[0m  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.7ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/items/1?_=1444859645364" for 127.0.0.1 at 2015-10-14 17:54:35 -0400
+Processing by ItemsController#show as JS
+  Parameters: {"_"=>"1444859645364", "id"=>"1"}
+  [1m[35mItem Load (0.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBid Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mBid Load (0.1ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  1 AS one FROM "bids" WHERE "bids"."item_id" = ? LIMIT 1[0m  [["item_id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "bids".* FROM "bids" WHERE "bids"."item_id" = ?  ORDER BY "bids"."amount" DESC LIMIT 1  [["item_id", 1]]
+  Rendered items/_item.js.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.4ms)
